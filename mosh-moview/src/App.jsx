@@ -1,22 +1,18 @@
 import React from 'react'
 import { Button, Alert, Container, Tab } from 'react-bootstrap';
+import Starter from './tutorial/03-conditional-rendering/starter/07-user-challenge'
 
 import './App.css'
-// import TableComponent from './components/table';
-
-import DiceContainer from './components/DiceContainer';
-import Assembly from './components/Assembly';
 
 
 function App() {
  
   return (
     <>
-      {/* <h1>Movie List</h1> */}
-      {/* <TableComponent /> */}
-      {/* <DiceContainer/> */}
-      <Assembly/>
+    
+      
 
+      <Starter />
   
     </>
   )
